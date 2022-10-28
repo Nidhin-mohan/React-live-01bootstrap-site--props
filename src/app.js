@@ -1,11 +1,20 @@
 import './app.css'
+import Navbar from "./Components/Navbar"
+
+import Cards from './Components/Cards';
+
 
 function App(){
 
     return (
       <>
-        <h2>This is app Function -Nidhin</h2>
-        <p>This is a paragraph</p>
+        <Navbar />
+
+   
+
+        <Cards/>
+
+       
       </>
     );
 }
